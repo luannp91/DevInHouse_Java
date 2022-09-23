@@ -7,7 +7,7 @@ public class Ex01 {
         int[] arr = { 56, 57, 58, 67, 99, 12, 11, 88 };
 
         System.out.println("Primeiro Elemento: " + arr[0]);
-        System.out.println("Último Elemento: " + arr[7]);
+        System.out.println("Último Elemento: " + arr[arr.length -1]);
         System.out.println("Terceiro Elemento: " + arr[2]);
     }
 }

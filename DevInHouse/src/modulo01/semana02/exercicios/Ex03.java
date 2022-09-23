@@ -24,8 +24,8 @@ public class Ex03 {
         int saldo = 0;
         for (int i = 0; i < extrato.length; i++) {
             saldo += extrato[i];
-            System.out.println(saldo);
         }
+        System.out.println(saldo);
 
         System.out.println("#######################################################");
 

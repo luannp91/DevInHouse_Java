@@ -101,6 +101,10 @@ public class Ex05 {
         System.out.println();
 
         int[] numeros4 = null;
+        if (numeros4 == null) {
+            System.out.println("Não é possível calcular!");
+            return;
+        }
         int maior4 = numeros4[0];
         int menor4 = numeros4[0];
         for (int i = 0; i < numeros4.length; i++) {
