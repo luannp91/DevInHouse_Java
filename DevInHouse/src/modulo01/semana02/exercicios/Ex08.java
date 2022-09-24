@@ -14,6 +14,7 @@ public class Ex08 {
         for (int i = 0; i < numeros.size(); i++) {
             if (numeros.get(i) > 50) {
                 System.out.println(numeros.get(i));
+                break;
             }
         }
     }
