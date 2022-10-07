@@ -4,14 +4,11 @@ import java.util.Scanner;
 
 public class Produto implements Tributavel {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite o valor: ");
-        double valor = scanner.nextDouble();
-        System.out.print("Digite o valor do imposto: ");
-        double valorImposto = scanner.nextDouble();
+    private double valor;
+    private double valorImposto;
 
-        System.out.println(Tributavel.calcularValorComImposto(valor, valorImposto));
+    @Override
+    public double calcularValorComImposto() {
+        return this.valor + this.valorImposto;
     }
-
 }
